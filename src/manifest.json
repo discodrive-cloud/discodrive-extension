@@ -24,7 +24,9 @@
     "storage",
     "alarms",
     "activeTab",
-    "scripting",
+    "scripting"
+  ],
+  "optional_permissions": [
     "cookies"
   ],
   "optional_host_permissions": [

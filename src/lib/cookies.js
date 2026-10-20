@@ -24,6 +24,13 @@ function hostPattern(url) {
   return `${u.protocol}//${u.hostname}/*`
 }
 
+// The cookies API permission and the host are both optional: they are asked
+// for together, when the user sends a link to the server for the first time
+// from that site.
+function cookieAccess(pattern) {
+  return { permissions: ['cookies'], origins: [pattern] }
+}
+
 // Must be called synchronously inside the click handler: Firefox accepts
 // permissions.request() only while the user action is still on the stack, and
 // any await before it loses it. Firefox also asks for consent to send
@@ -36,16 +43,16 @@ export function requestCookieAccess(url) {
     return Promise.resolve(false)
   }
   if (!pattern) return Promise.resolve(false)
-  const origins = { origins: [pattern] }
+  const access = cookieAccess(pattern)
   let pending
   if (typeof browser.runtime.getBrowserInfo === 'function') {
     // A Firefox without data_collection support fails schema validation
     // synchronously, so the fallback still runs inside the user action.
     try {
-      pending = browser.permissions.request({ ...origins, data_collection: ['authenticationInfo'] })
+      pending = browser.permissions.request({ ...access, data_collection: ['authenticationInfo'] })
     } catch { /* fall through */ }
   }
-  pending ??= browser.permissions.request(origins)
+  pending ??= browser.permissions.request(access)
   return pending.catch(() => false)
 }
 
@@ -55,7 +62,7 @@ export async function collectCookieHeader(url, access) {
   try {
     const pattern = hostPattern(url)
     if (!pattern) return ''
-    const has = access ? await access : await browser.permissions.contains({ origins: [pattern] })
+    const has = access ? await access : await browser.permissions.contains(cookieAccess(pattern))
     if (!has) return ''
     const cookies = await getAllCookies(url)
     const seen = new Map()

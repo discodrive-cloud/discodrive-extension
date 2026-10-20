@@ -7,8 +7,8 @@
 Browser extension for [DiscoDrive](https://github.com/discodrive-cloud/discodrive), a self-hosted personal cloud. It gives you one "save to DiscoDrive" action: send files to your server for download, save pages to Pocket (read later), and keep bookmarks in sync between browsers through your own cloud.
 
 - **Browsers:** Firefox and Chromium-based browsers (Chrome, Edge, Brave, Vivaldi, …). One codebase: WebExtensions, Manifest V3, `webextension-polyfill`.
-- **Thin client:** the extension sends a URL, the kind of action and a device token. Article parsing, downloads and the bookmark tree are handled by the DiscoDrive server.
-- **Your server only:** the extension talks to the server you configure and nothing else. Host access is requested at runtime, for that server alone.
+- **Thin client:** downloads, saved articles and the bookmark tree live on the DiscoDrive server. The extension only extracts the readable text of a page you save (with Mozilla Readability) and sends it, or a link, to your server.
+- **Your server only:** the extension talks to the server you configure and nothing else. Host access is requested at runtime, for that server alone. No analytics or tracking — see the [privacy policy](PRIVACY.md).
 
 ## Install
 
