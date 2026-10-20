@@ -1,0 +1,26 @@
+{
+  "name": "discodrive-extension",
+  "version": "1.0.1",
+  "private": true,
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "description": "DiscoDrive browser extension: server-side downloads, Pocket and bookmark sync for your own cloud",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "build:release": "node build.mjs --release",
+    "watch": "node build.mjs --watch",
+    "dev:firefox": "npx web-ext run -s dist",
+    "dev:chromium": "npx web-ext run -s dist -t chromium",
+    "lint": "npx web-ext lint -s dist",
+    "test": "node --import ./test/setup.mjs --test test/*.test.mjs",
+    "package": "npm run build:release && npx web-ext build -s dist --overwrite-dest",
+    "sign": "npm run build:release && npx web-ext sign -s dist --channel=unlisted --artifacts-dir=web-ext-artifacts"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "webextension-polyfill": "^0.12.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}

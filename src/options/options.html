@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>DiscoDrive</title>
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body>
+  <main>
+    <header class="page-head">
+      <h1>DiscoDrive</h1>
+      <a href="#" id="open-help" data-i18n="helpLink"></a>
+    </header>
+
+    <section>
+      <h2 data-i18n="optServer"></h2>
+      <div class="row">
+        <input id="base-url" type="url" placeholder="https://…" spellcheck="false" />
+        <button id="save-url" class="btn accent" data-i18n="optSaveGrant"></button>
+      </div>
+      <p id="server-status" class="muted"></p>
+      <button id="open-server" class="btn" data-i18n="optOpenServer" hidden></button>
+    </section>
+
+    <section>
+      <h2 data-i18n="optLanguage"></h2>
+      <div class="row">
+        <select id="lang" class="btn"></select>
+      </div>
+    </section>
+
+    <section>
+      <h2 data-i18n="optPairing"></h2>
+      <p id="pair-status" class="muted"></p>
+      <div id="pair-flow" hidden>
+        <div id="pair-code" class="code"></div>
+        <p class="muted" data-i18n="optPairHint"></p>
+        <button id="open-verify" class="btn" data-i18n="optOpenVerify"></button>
+        <p id="pair-progress" class="muted"></p>
+      </div>
+      <div class="row">
+        <button id="pair" class="btn accent" data-i18n="optPair"></button>
+        <button id="unpair" class="btn danger" data-i18n="optUnpair" hidden></button>
+      </div>
+    </section>
+
+    <section id="bookmarks-section">
+      <h2 data-i18n="optBookmarks"></h2>
+      <label class="row">
+        <input id="sync-enabled" type="checkbox" />
+        <span data-i18n="optSyncToggle"></span>
+      </label>
+      <p class="muted" data-i18n="optSyncHint"></p>
+      <div class="row">
+        <button id="sync-now" class="btn" data-i18n="optSyncNow"></button>
+        <button id="full-resync" class="btn" data-i18n="optFullResync"></button>
+      </div>
+      <p id="sync-status" class="muted"></p>
+    </section>
+  </main>
+  <script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,332 @@
+{
+  "extName": {
+    "message": "DiscoDrive"
+  },
+  "extDescription": {
+    "message": "Save to your DiscoDrive cloud: server-side downloads, pocket and bookmark sync"
+  },
+  "menuDownload": {
+    "message": "Download to DiscoDrive"
+  },
+  "menuPocket": {
+    "message": "Save to DiscoDrive Pocket"
+  },
+  "notifDone": {
+    "message": "DiscoDrive: done"
+  },
+  "notifError": {
+    "message": "DiscoDrive: error"
+  },
+  "notifAccepted": {
+    "message": "Task accepted — the server downloads the file itself"
+  },
+  "errNoHostPerm": {
+    "message": "no permission for the server host"
+  },
+  "errNotPaired": {
+    "message": "the extension is not paired"
+  },
+  "errRevoked": {
+    "message": "pairing was revoked — pair again"
+  },
+  "errNetwork": {
+    "message": "server unreachable: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "errGrantFirst": {
+    "message": "grant access to the server first"
+  },
+  "errNoUserId": {
+    "message": "no user id — pair the extension again"
+  },
+  "pairName": {
+    "message": "$DETAIL$ extension",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnpaired": {
+    "message": "The extension is not paired to a server."
+  },
+  "popupOpenOptions": {
+    "message": "Open settings"
+  },
+  "popupPocket": {
+    "message": "📖 Pocket it"
+  },
+  "popupSettings": {
+    "message": "Settings"
+  },
+  "popupSubmittedPocket": {
+    "message": "Sent"
+  },
+  "popupCannotSave": {
+    "message": "This page cannot be saved"
+  },
+  "stQueued": {
+    "message": "queued"
+  },
+  "stProcessing": {
+    "message": "processing…"
+  },
+  "stDone": {
+    "message": "done"
+  },
+  "stError": {
+    "message": "error"
+  },
+  "bytesUnits": {
+    "message": "B,KB,MB,GB"
+  },
+  "optServer": {
+    "message": "Server"
+  },
+  "optSaveGrant": {
+    "message": "Save and grant access"
+  },
+  "optServerNoAccess": {
+    "message": "Access to the server not granted — click “Save and grant access”"
+  },
+  "optServerOk": {
+    "message": "Server is responding ✓"
+  },
+  "optServerStatus": {
+    "message": "Server returned $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optServerDown": {
+    "message": "Server unreachable"
+  },
+  "optGrantDenied": {
+    "message": "Access not granted"
+  },
+  "optGrantFailed": {
+    "message": "Could not request access: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPairing": {
+    "message": "Pairing"
+  },
+  "optNotPaired": {
+    "message": "Not paired"
+  },
+  "optPairedAs": {
+    "message": "Paired: $DETAIL$ ✓",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPairRevoked": {
+    "message": "Pairing was revoked on the server — pair again"
+  },
+  "optPair": {
+    "message": "Pair"
+  },
+  "optUnpair": {
+    "message": "Unpair"
+  },
+  "optPairHint": {
+    "message": "Enter this code on the confirmation page (or open it with the button) and approve the device."
+  },
+  "optOpenVerify": {
+    "message": "Open confirmation page"
+  },
+  "optWaiting": {
+    "message": "Waiting for approval…"
+  },
+  "optCodeExpired": {
+    "message": "The code expired — click “Pair” again"
+  },
+  "optBookmarks": {
+    "message": "Bookmarks"
+  },
+  "optSyncToggle": {
+    "message": "Sync bookmarks with DiscoDrive"
+  },
+  "optSyncHint": {
+    "message": "All native sections of this browser are synced (toolbar, “other”, etc.). Deleting a bookmark in one browser deletes it everywhere."
+  },
+  "optSyncNow": {
+    "message": "Sync now"
+  },
+  "optFullResync": {
+    "message": "Full resync"
+  },
+  "optInitialSync": {
+    "message": "Initial sync…"
+  },
+  "optSyncFailed": {
+    "message": "Could not enable sync: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optSyncing": {
+    "message": "Syncing…"
+  },
+  "optResyncing": {
+    "message": "Full resync…"
+  },
+  "optResyncFailed": {
+    "message": "Resync error: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optLastSync": {
+    "message": "Last sync: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optSyncError": {
+    "message": "Sync error: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optLanguage": {
+    "message": "Language"
+  },
+  "langAuto": {
+    "message": "Auto (browser language)"
+  },
+  "optServerUnset": {
+    "message": "Enter your server address"
+  },
+  "optCertHint": {
+    "message": "Server unreachable. If it uses a self-signed certificate, open it in a tab, accept the security exception, then try again."
+  },
+  "optOpenServer": {
+    "message": "Open server in a tab"
+  },
+  "popupCancel": {
+    "message": "Cancel"
+  },
+  "popupCanceled": {
+    "message": "Canceled"
+  },
+  "rootToolbar": {
+    "message": "Bookmarks bar"
+  },
+  "rootMenu": {
+    "message": "Bookmarks menu"
+  },
+  "rootOther": {
+    "message": "Other bookmarks"
+  },
+  "rootMobile": {
+    "message": "Mobile bookmarks"
+  },
+  "helpTitle": {
+    "message": "DiscoDrive extension guide"
+  },
+  "helpIntro": {
+    "message": "DiscoDrive turns your own cloud into the place where browser things land: bookmarks synced across browsers, articles saved for later reading, and files downloaded by the server itself."
+  },
+  "helpSetupTitle": {
+    "message": "Getting started"
+  },
+  "helpSetupServer": {
+    "message": "Open the extension settings, enter your DiscoDrive address and press “Save and grant access”. The browser will ask for permission to reach that host — this is what lets the extension talk to your server."
+  },
+  "helpSetupPair": {
+    "message": "Press “Pair”. A code like ABCD-EFGH appears; open the confirmation page with the button (you must be signed in to the web interface) and approve the device. Once paired, the server address is locked — change it by unpairing first."
+  },
+  "helpSetupSync": {
+    "message": "Turn on “Sync bookmarks with DiscoDrive” to start the two-way bookmark sync."
+  },
+  "helpBookmarksTitle": {
+    "message": "Bookmark sync"
+  },
+  "helpBookmarksHow": {
+    "message": "Your bookmark tree lives on the server and is merged into every browser you pair. Create, rename, move or delete a bookmark anywhere — in a browser or in the web interface — and the change reaches the others within a few minutes, or right away with “Sync now”."
+  },
+  "helpBookmarksFirst": {
+    "message": "The first sync merges rather than overwrites: bookmarks that exist on both sides are matched, everything else is combined. Nothing is lost."
+  },
+  "helpBookmarksRoots": {
+    "message": "Only the sections your browser actually has are synced (bookmarks bar, other bookmarks, and so on). Firefox’s “Bookmarks Menu” has no counterpart in Chrome and similar browsers, so its contents stay on the server and in the web interface."
+  },
+  "helpBookmarksDelete": {
+    "message": "Deleting is global: a bookmark removed in one browser disappears everywhere. If two browsers edit the same bookmark, the later edit wins."
+  },
+  "helpPocketTitle": {
+    "message": "Pocket: articles for later"
+  },
+  "helpPocketHow": {
+    "message": "Click the extension icon and press “Pocket it”, or use “Save to DiscoDrive Pocket” in the page context menu. The article is stored as markdown and can be read in the web interface under Saved → Pocket."
+  },
+  "helpPocketDom": {
+    "message": "Saved articles are stored in your files as markdown — next to downloads, in Downloads/articles."
+  },
+  "helpDownloadsTitle": {
+    "message": "Downloads on the server"
+  },
+  "helpDownloadsHow": {
+    "message": "Right-click any file link and choose “Download to DiscoDrive”. The server fetches the file over its own connection — you can close the laptop right away. The file appears in Files → Downloads on the server."
+  },
+  "helpDownloadsCookies": {
+    "message": "Files from sites that require a login may fail to download — it depends on how the site is built."
+  },
+  "helpDownloadsCancel": {
+    "message": "A running download shows its progress in the popup; the ✕ button next to it cancels the download and removes the partial file."
+  },
+  "helpTroubleTitle": {
+    "message": "If something goes wrong"
+  },
+  "helpTroubleCert": {
+    "message": "“Server unreachable” with a valid address usually means a self-signed certificate. Open the server in a tab with the button below the address, accept the security exception, and try again."
+  },
+  "helpTroublePaired": {
+    "message": "The badge “!” on the icon means the pairing was revoked on the server — pair the extension again in the settings."
+  },
+  "helpTroubleReset": {
+    "message": "“Unpair” wipes all local state: the bookmark mapping, sync position and queue. Your bookmarks in the browser and the data on the server are untouched."
+  },
+  "helpScreenshotsNote": {
+    "message": "Screenshots show the English interface."
+  },
+  "helpCapOptions": {
+    "message": "Extension settings: server address, pairing and bookmark sync."
+  },
+  "helpCapPopup": {
+    "message": "The popup: save the current page to Pocket and watch recent tasks."
+  },
+  "helpCapBookmarks": {
+    "message": "Saved → Bookmarks in the web interface: the same tree as in your browsers."
+  },
+  "helpCapPocket": {
+    "message": "Saved → Pocket: saved articles."
+  },
+  "helpCapReader": {
+    "message": "The built-in reader for a saved article."
+  },
+  "helpLink": {
+    "message": "Guide"
+  }
+}

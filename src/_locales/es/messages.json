@@ -1,0 +1,332 @@
+{
+  "extName": {
+    "message": "DiscoDrive"
+  },
+  "extDescription": {
+    "message": "Guardar en tu nube DiscoDrive: descargas en el servidor, pocket y sincronización de marcadores"
+  },
+  "menuDownload": {
+    "message": "Descargar a DiscoDrive"
+  },
+  "menuPocket": {
+    "message": "Guardar en Pocket de DiscoDrive"
+  },
+  "notifDone": {
+    "message": "DiscoDrive: listo"
+  },
+  "notifError": {
+    "message": "DiscoDrive: error"
+  },
+  "notifAccepted": {
+    "message": "Tarea aceptada: el servidor descarga el archivo por sí mismo"
+  },
+  "errNoHostPerm": {
+    "message": "sin permiso para el host del servidor"
+  },
+  "errNotPaired": {
+    "message": "la extensión no está vinculada"
+  },
+  "errRevoked": {
+    "message": "vinculación revocada: vincula de nuevo"
+  },
+  "errNetwork": {
+    "message": "servidor no disponible: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "errGrantFirst": {
+    "message": "primero concede acceso al servidor"
+  },
+  "errNoUserId": {
+    "message": "sin id de usuario: vincula la extensión de nuevo"
+  },
+  "pairName": {
+    "message": "Extensión de $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnpaired": {
+    "message": "La extensión no está vinculada a un servidor."
+  },
+  "popupOpenOptions": {
+    "message": "Abrir ajustes"
+  },
+  "popupPocket": {
+    "message": "📖 Al pocket"
+  },
+  "popupSettings": {
+    "message": "Ajustes"
+  },
+  "popupSubmittedPocket": {
+    "message": "Enviado"
+  },
+  "popupCannotSave": {
+    "message": "Esta página no se puede guardar"
+  },
+  "stQueued": {
+    "message": "en cola"
+  },
+  "stProcessing": {
+    "message": "procesando…"
+  },
+  "stDone": {
+    "message": "listo"
+  },
+  "stError": {
+    "message": "error"
+  },
+  "bytesUnits": {
+    "message": "B,KB,MB,GB"
+  },
+  "optServer": {
+    "message": "Servidor"
+  },
+  "optSaveGrant": {
+    "message": "Guardar y conceder acceso"
+  },
+  "optServerNoAccess": {
+    "message": "Acceso al servidor no concedido: pulsa «Guardar y conceder acceso»"
+  },
+  "optServerOk": {
+    "message": "El servidor responde ✓"
+  },
+  "optServerStatus": {
+    "message": "El servidor devolvió $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optServerDown": {
+    "message": "Servidor no disponible"
+  },
+  "optGrantDenied": {
+    "message": "Acceso no concedido"
+  },
+  "optGrantFailed": {
+    "message": "No se pudo solicitar acceso: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPairing": {
+    "message": "Vinculación"
+  },
+  "optNotPaired": {
+    "message": "No vinculado"
+  },
+  "optPairedAs": {
+    "message": "Vinculado: $DETAIL$ ✓",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPairRevoked": {
+    "message": "La vinculación fue revocada en el servidor: vincula de nuevo"
+  },
+  "optPair": {
+    "message": "Vincular"
+  },
+  "optUnpair": {
+    "message": "Desvincular"
+  },
+  "optPairHint": {
+    "message": "Introduce este código en la página de confirmación (o ábrela con el botón) y aprueba el dispositivo."
+  },
+  "optOpenVerify": {
+    "message": "Abrir página de confirmación"
+  },
+  "optWaiting": {
+    "message": "Esperando aprobación…"
+  },
+  "optCodeExpired": {
+    "message": "El código caducó: pulsa «Vincular» otra vez"
+  },
+  "optBookmarks": {
+    "message": "Marcadores"
+  },
+  "optSyncToggle": {
+    "message": "Sincronizar marcadores con DiscoDrive"
+  },
+  "optSyncHint": {
+    "message": "Se sincronizan todas las secciones nativas de este navegador (barra, «otros», etc.). Eliminar un marcador en un navegador lo elimina en todos."
+  },
+  "optSyncNow": {
+    "message": "Sincronizar ahora"
+  },
+  "optFullResync": {
+    "message": "Resincronización completa"
+  },
+  "optInitialSync": {
+    "message": "Sincronización inicial…"
+  },
+  "optSyncFailed": {
+    "message": "No se pudo activar la sincronización: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optSyncing": {
+    "message": "Sincronizando…"
+  },
+  "optResyncing": {
+    "message": "Resincronización completa…"
+  },
+  "optResyncFailed": {
+    "message": "Error de resincronización: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optLastSync": {
+    "message": "Última sincronización: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optSyncError": {
+    "message": "Error de sincronización: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optLanguage": {
+    "message": "Idioma"
+  },
+  "langAuto": {
+    "message": "Auto (idioma del navegador)"
+  },
+  "optServerUnset": {
+    "message": "Introduce la dirección del servidor"
+  },
+  "optCertHint": {
+    "message": "Servidor no disponible. Si usa un certificado autofirmado, ábrelo en una pestaña, acepta la excepción de seguridad y vuelve a intentarlo."
+  },
+  "optOpenServer": {
+    "message": "Abrir servidor en una pestaña"
+  },
+  "popupCancel": {
+    "message": "Cancelar"
+  },
+  "popupCanceled": {
+    "message": "Cancelado"
+  },
+  "rootToolbar": {
+    "message": "Barra de marcadores"
+  },
+  "rootMenu": {
+    "message": "Menú de marcadores"
+  },
+  "rootOther": {
+    "message": "Otros marcadores"
+  },
+  "rootMobile": {
+    "message": "Marcadores móviles"
+  },
+  "helpTitle": {
+    "message": "Extensión DiscoDrive: guía"
+  },
+  "helpIntro": {
+    "message": "DiscoDrive convierte tu propia nube en el lugar donde acaba todo lo del navegador: los marcadores se sincronizan entre navegadores, los artículos se guardan para leerlos más tarde y los archivos los descarga el propio servidor."
+  },
+  "helpSetupTitle": {
+    "message": "Cómo empezar"
+  },
+  "helpSetupServer": {
+    "message": "Abre la configuración de la extensión, indica la dirección de tu DiscoDrive y pulsa «Guardar y conceder acceso». El navegador pedirá permiso para acceder a ese host: es justo lo que permite a la extensión hablar con tu servidor."
+  },
+  "helpSetupPair": {
+    "message": "Pulsa «Vincular». Aparecerá un código del tipo ABCD-EFGH; abre la página de confirmación con el botón (debes haber iniciado sesión en la interfaz web) y aprueba el dispositivo. Una vez vinculada, la dirección del servidor queda bloqueada: para cambiarla, desvincula primero."
+  },
+  "helpSetupSync": {
+    "message": "Activa «Sincronizar marcadores con DiscoDrive» para poner en marcha la sincronización bidireccional de marcadores."
+  },
+  "helpBookmarksTitle": {
+    "message": "Sincronización de marcadores"
+  },
+  "helpBookmarksHow": {
+    "message": "Tu árbol de marcadores vive en el servidor y se fusiona con cada navegador que vinculas. Crea, renombra, mueve o elimina un marcador donde quieras —en un navegador o en la interfaz web— y el cambio llegará a los demás en unos minutos, o al instante con «Sincronizar ahora»."
+  },
+  "helpBookmarksFirst": {
+    "message": "La primera sincronización no sobrescribe, sino que fusiona: los marcadores que existen en ambos lados se emparejan y todo lo demás se combina. No se pierde nada."
+  },
+  "helpBookmarksRoots": {
+    "message": "Solo se sincronizan las secciones que tu navegador tiene realmente (barra de marcadores, otros marcadores, etc.). El «Menú de marcadores» de Firefox no tiene equivalente en Chrome ni en navegadores similares, así que su contenido se queda en el servidor y en la interfaz web."
+  },
+  "helpBookmarksDelete": {
+    "message": "El borrado es global: un marcador eliminado en un navegador desaparece en todas partes. Si dos navegadores editan el mismo marcador, gana la edición más reciente."
+  },
+  "helpPocketTitle": {
+    "message": "Pocket: artículos para después"
+  },
+  "helpPocketHow": {
+    "message": "Haz clic en el icono de la extensión y pulsa «Al pocket», o usa «Guardar en Pocket de DiscoDrive» en el menú contextual de la página. El artículo se guarda en markdown y se puede leer en la interfaz web en «Guardado» → «Pocket»."
+  },
+  "helpPocketDom": {
+    "message": "Los artículos guardados quedan en tus archivos como markdown, junto a las descargas, en Downloads/articles."
+  },
+  "helpDownloadsTitle": {
+    "message": "Descargas en el servidor"
+  },
+  "helpDownloadsHow": {
+    "message": "Haz clic derecho en cualquier enlace a un archivo y elige «Descargar a DiscoDrive». El servidor obtiene el archivo por su propia conexión: puedes cerrar el portátil enseguida. El archivo aparece en el servidor, en «Archivos» → Downloads."
+  },
+  "helpDownloadsCookies": {
+    "message": "Puede que los archivos de sitios que piden iniciar sesión no lleguen a descargarse: depende de cómo esté construido el sitio."
+  },
+  "helpDownloadsCancel": {
+    "message": "Una descarga en curso muestra su progreso en el popup; el botón ✕ que hay al lado la cancela y elimina el archivo incompleto."
+  },
+  "helpTroubleTitle": {
+    "message": "Si algo va mal"
+  },
+  "helpTroubleCert": {
+    "message": "«Servidor no disponible» con una dirección correcta suele significar un certificado autofirmado. Abre el servidor en una pestaña con el botón que hay bajo la dirección, acepta la excepción de seguridad e inténtalo de nuevo."
+  },
+  "helpTroublePaired": {
+    "message": "La insignia «!» en el icono significa que la vinculación se ha revocado en el servidor: vuelve a vincular la extensión en la configuración."
+  },
+  "helpTroubleReset": {
+    "message": "«Desvincular» borra todo el estado local: la correspondencia de marcadores, la posición de sincronización y la cola. Tus marcadores del navegador y los datos del servidor no se tocan."
+  },
+  "helpScreenshotsNote": {
+    "message": "Las capturas muestran la interfaz en inglés."
+  },
+  "helpCapOptions": {
+    "message": "Configuración de la extensión: dirección del servidor, vinculación y sincronización de marcadores."
+  },
+  "helpCapPopup": {
+    "message": "El popup: guardar la página actual en el pocket y ver las últimas tareas."
+  },
+  "helpCapBookmarks": {
+    "message": "«Guardado» → «Marcadores» en la interfaz web: el mismo árbol que en tus navegadores."
+  },
+  "helpCapPocket": {
+    "message": "«Guardado» → «Pocket»: los artículos guardados."
+  },
+  "helpCapReader": {
+    "message": "El lector integrado para un artículo guardado."
+  },
+  "helpLink": {
+    "message": "Guía"
+  }
+}

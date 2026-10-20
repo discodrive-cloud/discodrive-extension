@@ -1,0 +1,332 @@
+{
+  "extName": {
+    "message": "DiscoDrive"
+  },
+  "extDescription": {
+    "message": "Enregistrer dans votre cloud DiscoDrive : téléchargements côté serveur, pocket et synchro des signets"
+  },
+  "menuDownload": {
+    "message": "Télécharger sur DiscoDrive"
+  },
+  "menuPocket": {
+    "message": "Enregistrer dans le Pocket DiscoDrive"
+  },
+  "notifDone": {
+    "message": "DiscoDrive : terminé"
+  },
+  "notifError": {
+    "message": "DiscoDrive : erreur"
+  },
+  "notifAccepted": {
+    "message": "Tâche acceptée — le serveur télécharge le fichier lui-même"
+  },
+  "errNoHostPerm": {
+    "message": "pas d'autorisation pour l'hôte du serveur"
+  },
+  "errNotPaired": {
+    "message": "l'extension n'est pas associée"
+  },
+  "errRevoked": {
+    "message": "association révoquée — associez à nouveau"
+  },
+  "errNetwork": {
+    "message": "serveur injoignable : $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "errGrantFirst": {
+    "message": "accordez d'abord l'accès au serveur"
+  },
+  "errNoUserId": {
+    "message": "pas d'identifiant utilisateur — associez à nouveau l'extension"
+  },
+  "pairName": {
+    "message": "Extension $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnpaired": {
+    "message": "L'extension n'est associée à aucun serveur."
+  },
+  "popupOpenOptions": {
+    "message": "Ouvrir les réglages"
+  },
+  "popupPocket": {
+    "message": "📖 Dans le pocket"
+  },
+  "popupSettings": {
+    "message": "Réglages"
+  },
+  "popupSubmittedPocket": {
+    "message": "Envoyé"
+  },
+  "popupCannotSave": {
+    "message": "Cette page ne peut pas être enregistrée"
+  },
+  "stQueued": {
+    "message": "en attente"
+  },
+  "stProcessing": {
+    "message": "traitement…"
+  },
+  "stDone": {
+    "message": "terminé"
+  },
+  "stError": {
+    "message": "erreur"
+  },
+  "bytesUnits": {
+    "message": "o,Ko,Mo,Go"
+  },
+  "optServer": {
+    "message": "Serveur"
+  },
+  "optSaveGrant": {
+    "message": "Enregistrer et accorder l'accès"
+  },
+  "optServerNoAccess": {
+    "message": "Accès au serveur non accordé — cliquez sur « Enregistrer et accorder l'accès »"
+  },
+  "optServerOk": {
+    "message": "Le serveur répond ✓"
+  },
+  "optServerStatus": {
+    "message": "Le serveur a renvoyé $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optServerDown": {
+    "message": "Serveur injoignable"
+  },
+  "optGrantDenied": {
+    "message": "Accès non accordé"
+  },
+  "optGrantFailed": {
+    "message": "Impossible de demander l'accès : $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPairing": {
+    "message": "Association"
+  },
+  "optNotPaired": {
+    "message": "Non associé"
+  },
+  "optPairedAs": {
+    "message": "Associé : $DETAIL$ ✓",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPairRevoked": {
+    "message": "L'association a été révoquée sur le serveur — associez à nouveau"
+  },
+  "optPair": {
+    "message": "Associer"
+  },
+  "optUnpair": {
+    "message": "Dissocier"
+  },
+  "optPairHint": {
+    "message": "Saisissez ce code sur la page de confirmation (ou ouvrez-la avec le bouton) et approuvez l'appareil."
+  },
+  "optOpenVerify": {
+    "message": "Ouvrir la page de confirmation"
+  },
+  "optWaiting": {
+    "message": "En attente d'approbation…"
+  },
+  "optCodeExpired": {
+    "message": "Le code a expiré — cliquez encore sur « Associer »"
+  },
+  "optBookmarks": {
+    "message": "Signets"
+  },
+  "optSyncToggle": {
+    "message": "Synchroniser les signets avec DiscoDrive"
+  },
+  "optSyncHint": {
+    "message": "Toutes les sections natives de ce navigateur sont synchronisées (barre, « autres », etc.). Supprimer un signet dans un navigateur le supprime partout."
+  },
+  "optSyncNow": {
+    "message": "Synchroniser maintenant"
+  },
+  "optFullResync": {
+    "message": "Resynchronisation complète"
+  },
+  "optInitialSync": {
+    "message": "Synchronisation initiale…"
+  },
+  "optSyncFailed": {
+    "message": "Impossible d'activer la synchro : $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optSyncing": {
+    "message": "Synchronisation…"
+  },
+  "optResyncing": {
+    "message": "Resynchronisation complète…"
+  },
+  "optResyncFailed": {
+    "message": "Erreur de resynchronisation : $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optLastSync": {
+    "message": "Dernière synchro : $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optSyncError": {
+    "message": "Erreur de synchro : $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optLanguage": {
+    "message": "Langue"
+  },
+  "langAuto": {
+    "message": "Auto (langue du navigateur)"
+  },
+  "optServerUnset": {
+    "message": "Saisissez l'adresse du serveur"
+  },
+  "optCertHint": {
+    "message": "Serveur injoignable. S'il utilise un certificat auto-signé, ouvrez-le dans un onglet, acceptez l'exception de sécurité, puis réessayez."
+  },
+  "optOpenServer": {
+    "message": "Ouvrir le serveur dans un onglet"
+  },
+  "popupCancel": {
+    "message": "Annuler"
+  },
+  "popupCanceled": {
+    "message": "Annulé"
+  },
+  "rootToolbar": {
+    "message": "Barre de signets"
+  },
+  "rootMenu": {
+    "message": "Menu des signets"
+  },
+  "rootOther": {
+    "message": "Autres signets"
+  },
+  "rootMobile": {
+    "message": "Signets mobiles"
+  },
+  "helpTitle": {
+    "message": "Extension DiscoDrive : guide"
+  },
+  "helpIntro": {
+    "message": "DiscoDrive transforme votre propre cloud en l'endroit où atterrit tout ce qui vient du navigateur : les signets se synchronisent entre navigateurs, les articles sont enregistrés pour plus tard, et les fichiers, c'est le serveur qui les télécharge."
+  },
+  "helpSetupTitle": {
+    "message": "Pour commencer"
+  },
+  "helpSetupServer": {
+    "message": "Ouvrez les paramètres de l'extension, indiquez l'adresse de votre DiscoDrive et cliquez sur « Enregistrer et accorder l'accès ». Le navigateur demandera l'autorisation d'accéder à cet hôte — c'est elle qui permet à l'extension de dialoguer avec votre serveur."
+  },
+  "helpSetupPair": {
+    "message": "Cliquez sur « Associer ». Un code du type ABCD-EFGH apparaît ; ouvrez la page de confirmation avec le bouton (vous devez être connecté à l'interface web) et approuvez l'appareil. Une fois l'association faite, l'adresse du serveur est verrouillée — pour la changer, dissociez d'abord."
+  },
+  "helpSetupSync": {
+    "message": "Activez « Synchroniser les signets avec DiscoDrive » pour lancer la synchronisation bidirectionnelle des signets."
+  },
+  "helpBookmarksTitle": {
+    "message": "Synchronisation des signets"
+  },
+  "helpBookmarksHow": {
+    "message": "Votre arborescence de signets vit sur le serveur et fusionne avec chaque navigateur associé. Créez, renommez, déplacez ou supprimez un signet où vous voulez — dans un navigateur ou dans l'interface web — et la modification parvient aux autres en quelques minutes, ou aussitôt avec « Synchroniser maintenant »."
+  },
+  "helpBookmarksFirst": {
+    "message": "La première synchronisation ne remplace pas, elle fusionne : les signets présents des deux côtés sont appariés, tout le reste est réuni. Rien n'est perdu."
+  },
+  "helpBookmarksRoots": {
+    "message": "Seules les sections que votre navigateur possède réellement sont synchronisées (barre de signets, autres signets, etc.). Le « Menu des signets » de Firefox n’a pas d’équivalent dans Chrome et les navigateurs similaires : son contenu reste donc sur le serveur et dans l’interface web."
+  },
+  "helpBookmarksDelete": {
+    "message": "La suppression est globale : un signet supprimé dans un navigateur disparaît partout. Si deux navigateurs modifient le même signet, c'est la modification la plus récente qui l'emporte."
+  },
+  "helpPocketTitle": {
+    "message": "Pocket : des articles pour plus tard"
+  },
+  "helpPocketHow": {
+    "message": "Cliquez sur l'icône de l'extension et choisissez « Dans le pocket », ou utilisez « Enregistrer dans le Pocket DiscoDrive » dans le menu contextuel de la page. L'article est enregistré en markdown et se lit dans l'interface web sous « Enregistrés » → « Pocket »."
+  },
+  "helpPocketDom": {
+    "message": "Les articles enregistrés sont conservés dans vos fichiers en markdown — à côté des téléchargements, dans Downloads/articles."
+  },
+  "helpDownloadsTitle": {
+    "message": "Téléchargements sur le serveur"
+  },
+  "helpDownloadsHow": {
+    "message": "Faites un clic droit sur un lien de fichier et choisissez « Télécharger sur DiscoDrive ». Le serveur récupère le fichier par sa propre connexion — vous pouvez refermer le portable tout de suite. Le fichier apparaît sur le serveur, dans « Fichiers » → Downloads."
+  },
+  "helpDownloadsCookies": {
+    "message": "Les fichiers provenant de sites qui exigent une connexion ne se téléchargent pas toujours — cela dépend de la façon dont le site est conçu."
+  },
+  "helpDownloadsCancel": {
+    "message": "Un téléchargement en cours affiche sa progression dans le popup ; le bouton ✕ à côté l'annule et supprime le fichier incomplet."
+  },
+  "helpTroubleTitle": {
+    "message": "Si quelque chose ne va pas"
+  },
+  "helpTroubleCert": {
+    "message": "« Serveur injoignable » avec une adresse correcte signifie généralement un certificat auto-signé. Ouvrez le serveur dans un onglet avec le bouton situé sous l'adresse, acceptez l'exception de sécurité et réessayez."
+  },
+  "helpTroublePaired": {
+    "message": "Le badge « ! » sur l'icône signifie que l'association a été révoquée sur le serveur — associez à nouveau l'extension dans les paramètres."
+  },
+  "helpTroubleReset": {
+    "message": "« Dissocier » efface tout l'état local : la correspondance des signets, la position de synchronisation et la file d'attente. Vos signets dans le navigateur et les données sur le serveur restent intacts."
+  },
+  "helpScreenshotsNote": {
+    "message": "Les captures d'écran montrent l'interface en anglais."
+  },
+  "helpCapOptions": {
+    "message": "Paramètres de l'extension : adresse du serveur, association et synchronisation des signets."
+  },
+  "helpCapPopup": {
+    "message": "Le popup : enregistrer la page en cours dans le pocket et suivre les dernières tâches."
+  },
+  "helpCapBookmarks": {
+    "message": "« Enregistrés » → « Signets » dans l'interface web : le même arbre que dans vos navigateurs."
+  },
+  "helpCapPocket": {
+    "message": "« Enregistrés » → « Pocket » : les articles enregistrés."
+  },
+  "helpCapReader": {
+    "message": "La liseuse intégrée pour un article enregistré."
+  },
+  "helpLink": {
+    "message": "Guide"
+  }
+}

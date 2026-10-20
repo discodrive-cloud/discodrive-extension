@@ -1,0 +1,58 @@
+:root {
+  color-scheme: light dark;
+  --accent: #6366f1;
+  --muted: #8b8b94;
+  --danger: #dc2626;
+}
+body { margin: 0; font: 14px/1.5 system-ui, sans-serif; }
+main { max-width: 560px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { font-size: 20px; }
+h2 { font-size: 15px; margin: 0 0 8px; }
+section {
+  margin-top: 20px;
+  padding: 16px;
+  border: 1px solid color-mix(in srgb, currentColor 15%, transparent);
+  border-radius: 10px;
+}
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 8px 0; }
+input[type="url"] {
+  flex: 1;
+  min-width: 220px;
+  padding: 8px 10px;
+  border: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  border-radius: 8px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}
+.btn {
+  padding: 8px 12px;
+  border: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  border-radius: 8px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.btn:hover { background: color-mix(in srgb, currentColor 8%, transparent); }
+.btn.accent { border-color: var(--accent); color: var(--accent); }
+.btn.danger { border-color: var(--danger); color: var(--danger); }
+.btn:disabled, input:disabled { opacity: 0.45; cursor: not-allowed; }
+.btn:disabled:hover { background: transparent; }
+.muted { color: var(--muted); font-size: 13px; }
+.ok { color: #16a34a; }
+.error { color: var(--danger); }
+/* Guide link lives in the header: at the bottom nobody finds it. */
+.page-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.page-head h1 { margin: 0; }
+.page-head a { color: var(--accent); font-size: 14px; text-decoration: none; }
+.page-head a:hover { text-decoration: underline; }
+.code {
+  font: 700 32px/1.2 ui-monospace, monospace;
+  letter-spacing: 4px;
+  text-align: center;
+  padding: 12px;
+  border: 1px dashed color-mix(in srgb, currentColor 30%, transparent);
+  border-radius: 10px;
+  margin: 8px 0;
+}

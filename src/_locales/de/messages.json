@@ -1,0 +1,332 @@
+{
+  "extName": {
+    "message": "DiscoDrive"
+  },
+  "extDescription": {
+    "message": "In die eigene DiscoDrive-Cloud speichern: Server-Downloads, Pocket und Lesezeichen-Sync"
+  },
+  "menuDownload": {
+    "message": "Auf DiscoDrive herunterladen"
+  },
+  "menuPocket": {
+    "message": "In DiscoDrive-Pocket speichern"
+  },
+  "notifDone": {
+    "message": "DiscoDrive: fertig"
+  },
+  "notifError": {
+    "message": "DiscoDrive: Fehler"
+  },
+  "notifAccepted": {
+    "message": "Auftrag angenommen — der Server lädt die Datei selbst herunter"
+  },
+  "errNoHostPerm": {
+    "message": "keine Berechtigung für den Server-Host"
+  },
+  "errNotPaired": {
+    "message": "die Erweiterung ist nicht gekoppelt"
+  },
+  "errRevoked": {
+    "message": "Kopplung widerrufen — erneut koppeln"
+  },
+  "errNetwork": {
+    "message": "Server nicht erreichbar: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "errGrantFirst": {
+    "message": "zuerst Zugriff auf den Server gewähren"
+  },
+  "errNoUserId": {
+    "message": "keine Nutzer-ID — Erweiterung erneut koppeln"
+  },
+  "pairName": {
+    "message": "$DETAIL$-Erweiterung",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnpaired": {
+    "message": "Die Erweiterung ist mit keinem Server gekoppelt."
+  },
+  "popupOpenOptions": {
+    "message": "Einstellungen öffnen"
+  },
+  "popupPocket": {
+    "message": "📖 In Pocket"
+  },
+  "popupSettings": {
+    "message": "Einstellungen"
+  },
+  "popupSubmittedPocket": {
+    "message": "Gesendet"
+  },
+  "popupCannotSave": {
+    "message": "Diese Seite kann nicht gespeichert werden"
+  },
+  "stQueued": {
+    "message": "in Warteschlange"
+  },
+  "stProcessing": {
+    "message": "wird verarbeitet…"
+  },
+  "stDone": {
+    "message": "fertig"
+  },
+  "stError": {
+    "message": "Fehler"
+  },
+  "bytesUnits": {
+    "message": "B,KB,MB,GB"
+  },
+  "optServer": {
+    "message": "Server"
+  },
+  "optSaveGrant": {
+    "message": "Speichern und Zugriff gewähren"
+  },
+  "optServerNoAccess": {
+    "message": "Zugriff auf den Server nicht gewährt — „Speichern und Zugriff gewähren“ klicken"
+  },
+  "optServerOk": {
+    "message": "Server antwortet ✓"
+  },
+  "optServerStatus": {
+    "message": "Server antwortete mit $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optServerDown": {
+    "message": "Server nicht erreichbar"
+  },
+  "optGrantDenied": {
+    "message": "Zugriff nicht gewährt"
+  },
+  "optGrantFailed": {
+    "message": "Zugriff konnte nicht angefordert werden: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPairing": {
+    "message": "Kopplung"
+  },
+  "optNotPaired": {
+    "message": "Nicht gekoppelt"
+  },
+  "optPairedAs": {
+    "message": "Gekoppelt: $DETAIL$ ✓",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPairRevoked": {
+    "message": "Kopplung wurde auf dem Server widerrufen — erneut koppeln"
+  },
+  "optPair": {
+    "message": "Koppeln"
+  },
+  "optUnpair": {
+    "message": "Entkoppeln"
+  },
+  "optPairHint": {
+    "message": "Diesen Code auf der Bestätigungsseite eingeben (oder per Button öffnen) und das Gerät genehmigen."
+  },
+  "optOpenVerify": {
+    "message": "Bestätigungsseite öffnen"
+  },
+  "optWaiting": {
+    "message": "Warte auf Genehmigung…"
+  },
+  "optCodeExpired": {
+    "message": "Der Code ist abgelaufen — erneut „Koppeln“ klicken"
+  },
+  "optBookmarks": {
+    "message": "Lesezeichen"
+  },
+  "optSyncToggle": {
+    "message": "Lesezeichen mit DiscoDrive synchronisieren"
+  },
+  "optSyncHint": {
+    "message": "Alle nativen Bereiche dieses Browsers werden synchronisiert (Leiste, „Weitere“ usw.). Das Löschen eines Lesezeichens in einem Browser löscht es überall."
+  },
+  "optSyncNow": {
+    "message": "Jetzt synchronisieren"
+  },
+  "optFullResync": {
+    "message": "Vollständiger Resync"
+  },
+  "optInitialSync": {
+    "message": "Erstsynchronisierung…"
+  },
+  "optSyncFailed": {
+    "message": "Sync konnte nicht aktiviert werden: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optSyncing": {
+    "message": "Synchronisiere…"
+  },
+  "optResyncing": {
+    "message": "Vollständiger Resync…"
+  },
+  "optResyncFailed": {
+    "message": "Resync-Fehler: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optLastSync": {
+    "message": "Letzter Sync: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optSyncError": {
+    "message": "Sync-Fehler: $DETAIL$",
+    "placeholders": {
+      "detail": {
+        "content": "$1"
+      }
+    }
+  },
+  "optLanguage": {
+    "message": "Sprache"
+  },
+  "langAuto": {
+    "message": "Auto (Browsersprache)"
+  },
+  "optServerUnset": {
+    "message": "Serveradresse angeben"
+  },
+  "optCertHint": {
+    "message": "Server nicht erreichbar. Bei einem selbstsignierten Zertifikat: Server in einem Tab öffnen, Sicherheitsausnahme akzeptieren und erneut versuchen."
+  },
+  "optOpenServer": {
+    "message": "Server in Tab öffnen"
+  },
+  "popupCancel": {
+    "message": "Abbrechen"
+  },
+  "popupCanceled": {
+    "message": "Abgebrochen"
+  },
+  "rootToolbar": {
+    "message": "Lesezeichen-Symbolleiste"
+  },
+  "rootMenu": {
+    "message": "Lesezeichen-Menü"
+  },
+  "rootOther": {
+    "message": "Weitere Lesezeichen"
+  },
+  "rootMobile": {
+    "message": "Mobile Lesezeichen"
+  },
+  "helpTitle": {
+    "message": "DiscoDrive-Erweiterung: Anleitung"
+  },
+  "helpIntro": {
+    "message": "DiscoDrive macht Ihre eigene Cloud zu dem Ort, an dem alles aus dem Browser landet: Lesezeichen werden zwischen Browsern synchronisiert, Artikel für später gespeichert, und Dateien lädt der Server selbst herunter."
+  },
+  "helpSetupTitle": {
+    "message": "Erste Schritte"
+  },
+  "helpSetupServer": {
+    "message": "Öffnen Sie die Einstellungen der Erweiterung, tragen Sie die Adresse Ihres DiscoDrive ein und klicken Sie auf „Speichern und Zugriff gewähren“. Der Browser fragt nach der Berechtigung für diesen Host — genau sie erlaubt es der Erweiterung, mit Ihrem Server zu sprechen."
+  },
+  "helpSetupPair": {
+    "message": "Klicken Sie auf „Koppeln“. Es erscheint ein Code wie ABCD-EFGH; öffnen Sie die Bestätigungsseite mit dem Button (Sie müssen in der Weboberfläche angemeldet sein) und genehmigen Sie das Gerät. Nach der Kopplung ist die Serveradresse gesperrt — zum Ändern entkoppeln Sie zuerst."
+  },
+  "helpSetupSync": {
+    "message": "Aktivieren Sie „Lesezeichen mit DiscoDrive synchronisieren“, um die beidseitige Lesezeichen-Synchronisierung zu starten."
+  },
+  "helpBookmarksTitle": {
+    "message": "Lesezeichen-Synchronisierung"
+  },
+  "helpBookmarksHow": {
+    "message": "Ihr Lesezeichenbaum liegt auf dem Server und wird mit jedem gekoppelten Browser zusammengeführt. Legen Sie Lesezeichen an, benennen Sie sie um, verschieben oder löschen Sie sie, wo Sie wollen — im Browser oder in der Weboberfläche — und die Änderung erreicht die anderen innerhalb weniger Minuten oder sofort über „Jetzt synchronisieren“."
+  },
+  "helpBookmarksFirst": {
+    "message": "Die erste Synchronisierung überschreibt nicht, sondern führt zusammen: Lesezeichen, die auf beiden Seiten vorhanden sind, werden einander zugeordnet, alles Übrige wird vereint. Nichts geht verloren."
+  },
+  "helpBookmarksRoots": {
+    "message": "Synchronisiert werden nur die Bereiche, die Ihr Browser tatsächlich hat (Lesezeichenleiste, weitere Lesezeichen und so weiter). Das „Lesezeichen-Menü“ von Firefox hat in Chrome und ähnlichen Browsern keine Entsprechung, deshalb bleibt sein Inhalt auf dem Server und in der Weboberfläche."
+  },
+  "helpBookmarksDelete": {
+    "message": "Löschen wirkt global: Ein in einem Browser entferntes Lesezeichen verschwindet überall. Bearbeiten zwei Browser dasselbe Lesezeichen, gewinnt die spätere Änderung."
+  },
+  "helpPocketTitle": {
+    "message": "Pocket: Artikel für später"
+  },
+  "helpPocketHow": {
+    "message": "Klicken Sie auf das Symbol der Erweiterung und wählen Sie „In Pocket“, oder nutzen Sie „In DiscoDrive-Pocket speichern“ im Kontextmenü der Seite. Der Artikel wird als Markdown gespeichert und lässt sich in der Weboberfläche unter „Gespeichert“ → „Pocket“ lesen."
+  },
+  "helpPocketDom": {
+    "message": "Gespeicherte Artikel liegen als markdown in Ihren Dateien — gleich neben den Downloads, in Downloads/articles."
+  },
+  "helpDownloadsTitle": {
+    "message": "Downloads auf dem Server"
+  },
+  "helpDownloadsHow": {
+    "message": "Klicken Sie mit der rechten Maustaste auf einen Dateilink und wählen Sie „Auf DiscoDrive herunterladen“. Der Server holt die Datei über seine eigene Verbindung — Sie können den Laptop sofort zuklappen. Die Datei erscheint auf dem Server unter „Dateien“ → Downloads."
+  },
+  "helpDownloadsCookies": {
+    "message": "Dateien von Websites, die eine Anmeldung verlangen, lassen sich unter Umständen nicht herunterladen — das hängt davon ab, wie die Website aufgebaut ist."
+  },
+  "helpDownloadsCancel": {
+    "message": "Ein laufender Download zeigt seinen Fortschritt im Popup; der Button ✕ daneben bricht ihn ab und entfernt die unvollständige Datei."
+  },
+  "helpTroubleTitle": {
+    "message": "Wenn etwas schiefgeht"
+  },
+  "helpTroubleCert": {
+    "message": "„Server nicht erreichbar“ bei korrekter Adresse bedeutet meist ein selbstsigniertes Zertifikat. Öffnen Sie den Server mit dem Button unter der Adresse in einem Tab, akzeptieren Sie die Sicherheitsausnahme und versuchen Sie es erneut."
+  },
+  "helpTroublePaired": {
+    "message": "Das Abzeichen „!“ am Symbol bedeutet, dass die Kopplung auf dem Server widerrufen wurde — koppeln Sie die Erweiterung in den Einstellungen erneut."
+  },
+  "helpTroubleReset": {
+    "message": "„Entkoppeln“ löscht den gesamten lokalen Zustand: die Lesezeichen-Zuordnung, die Sync-Position und die Warteschlange. Ihre Lesezeichen im Browser und die Daten auf dem Server bleiben dabei unberührt."
+  },
+  "helpScreenshotsNote": {
+    "message": "Auf den Screenshots ist die Oberfläche auf Englisch."
+  },
+  "helpCapOptions": {
+    "message": "Einstellungen der Erweiterung: Serveradresse, Kopplung und Lesezeichen-Synchronisierung."
+  },
+  "helpCapPopup": {
+    "message": "Das Popup: die aktuelle Seite in Pocket speichern und die letzten Aufgaben ansehen."
+  },
+  "helpCapBookmarks": {
+    "message": "„Gespeichert“ → „Lesezeichen“ in der Weboberfläche: derselbe Baum wie in Ihren Browsern."
+  },
+  "helpCapPocket": {
+    "message": "„Gespeichert“ → „Pocket“: gespeicherte Artikel."
+  },
+  "helpCapReader": {
+    "message": "Der eingebaute Reader für einen gespeicherten Artikel."
+  },
+  "helpLink": {
+    "message": "Anleitung"
+  }
+}
