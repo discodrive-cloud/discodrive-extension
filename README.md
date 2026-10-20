@@ -21,6 +21,10 @@ The easiest way. Store listings are on the way:
 - **Firefox:** Firefox Add-ons (coming soon)
 - **Chrome, Edge, Brave, Vivaldi and other Chromium browsers:** Chrome Web Store (coming soon)
 
+### Ready-made package for Chromium browsers
+
+Until the Chrome Web Store listing is live: download `discodrive-<version>-chromium.zip` from [Releases](https://github.com/discodrive-cloud/discodrive-extension/releases/latest), unzip it into a folder you will keep, open `chrome://extensions`, enable "Developer mode" → "Load unpacked" → choose that folder.
+
 ### Build it yourself
 
 Requires Node.js and npm.
