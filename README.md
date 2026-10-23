@@ -19,7 +19,8 @@ You need a running [DiscoDrive server](https://github.com/discodrive-cloud/disco
 The easiest way:
 
 - **Firefox:** [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/discodrive/)
-- **Chrome, Edge, Brave, Vivaldi and other Chromium browsers:** Chrome Web Store (coming soon)
+- **Microsoft Edge:** [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/discodrive/bdcnaopmdookjgkgpnihjcieppnngfil)
+- **Chrome, Brave, Vivaldi and other Chromium browsers:** Chrome Web Store (coming soon) — until then, use the ready-made package below
 
 ### Ready-made package for Chromium browsers
 
