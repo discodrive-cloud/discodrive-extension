@@ -58,6 +58,7 @@ A user guide with screenshots is built in: options → "Guide". It is available 
 | `npm run lint` | `web-ext lint` |
 | `npm test` | sync, auth and task tests (`node:test`, with a fake `browser` and server in `test/`) |
 | `npm run package` | zip into `web-ext-artifacts/` |
+| `npm run package:chromium` | zip for Chromium stores (no Firefox-only manifest keys) |
 | `npm run sign` | signed XPI for Firefox (requires AMO API keys) |
 
 ## License

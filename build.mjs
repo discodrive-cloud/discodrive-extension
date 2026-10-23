@@ -1,11 +1,15 @@
 import * as esbuild from 'esbuild'
-import { cp, mkdir, rm } from 'node:fs/promises'
+import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises'
 
 const watch = process.argv.includes('--watch')
 // Release builds ship no sourcemaps: they double the bundle size and expose the
 // full source inside the signed package. Code stays unminified so AMO's
 // automated review reads it as-is.
 const release = process.argv.includes('--release')
+// Chromium stores (Edge Add-ons) reject an MV3 manifest that also carries
+// background.scripts, which Firefox needs; they get a manifest without the
+// Firefox-only keys.
+const chromium = process.argv.includes('--chromium')
 
 await rm('dist', { recursive: true, force: true })
 await mkdir('dist', { recursive: true })
@@ -30,7 +34,12 @@ const ctx = await esbuild.context({
 const noJunk = { recursive: true, filter: (src) => !src.endsWith('.DS_Store') }
 
 async function copyStatic() {
-  await cp('src/manifest.json', 'dist/manifest.json')
+  const manifest = JSON.parse(await readFile('src/manifest.json', 'utf8'))
+  if (chromium) {
+    delete manifest.background.scripts
+    delete manifest.browser_specific_settings
+  }
+  await writeFile('dist/manifest.json', JSON.stringify(manifest, null, 2) + '\n')
   await cp('src/_locales', 'dist/_locales', noJunk)
   await cp('src/popup/popup.html', 'dist/popup/popup.html')
   await cp('src/popup/popup.css', 'dist/popup/popup.css')

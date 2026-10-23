@@ -14,6 +14,7 @@
     "lint": "npx web-ext lint -s dist",
     "test": "node --import ./test/setup.mjs --test test/*.test.mjs",
     "package": "npm run build:release && npx web-ext build -s dist --overwrite-dest",
+    "package:chromium": "node build.mjs --release --chromium && npx web-ext build -s dist --overwrite-dest --filename discodrive-{version}-chromium.zip",
     "sign": "npm run build:release && npx web-ext sign -s dist --channel=unlisted --artifacts-dir=web-ext-artifacts"
   },
   "dependencies": {
